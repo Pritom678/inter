@@ -1,9 +1,11 @@
-import Image from "next/image";
+import MainHeroSection from "@/components/Hero/MainHeroSection";
+
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black text-primary">
+    <div className=" min-h-screen bg-zinc-50 font-sans dark:bg-black">
       this is home page
+      <MainHeroSection />
     </div>
   );
 }
